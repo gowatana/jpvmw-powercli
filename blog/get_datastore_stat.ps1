@@ -29,4 +29,4 @@ $stat | group MetricId,Instance,Unit | % {
         Minimum,
         @{N="Begin";E={$begin_time}},
         @{N="End";E={$end_time}}
-}
+} | sort Datastore,Metric
