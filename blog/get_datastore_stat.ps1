@@ -1,6 +1,9 @@
 ﻿# https://communities.vmware.com/people/gowatana/blog/2014/02/02/esxi-%E3%83%87%E3%83%BC%E3%82%BF%E3%82%B9%E3%83%88%E3%82%A2%E3%81%B8%E3%81%AE-vm-%E9%85%8D%E7%BD%AE%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6-%E7%A9%BA%E3%81%8D%E5%AE%B9%E9%87%8F%E3%81%A8-iops-%E3%82%92%E8%A6%8B%E3%81%A6%E3%81%BF%E3%82%8B
 
-$stat_counter = "datastore.numberwriteaveraged.average","datastore.numberreadaveraged.average"
+$stat_counter = 
+    "datastore.numberwriteaveraged.average",
+    "datastore.numberreadaveraged.average"
+    
 # 統計情報を取得
 $stat = Get-VMHost | Get-Stat -Realtime -Stat $stat_counter | sort Timestamp
 $stat | group MetricId,Instance,Unit | % { 
