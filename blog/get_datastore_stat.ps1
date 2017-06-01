@@ -2,13 +2,13 @@
 
 $stat_counter = "datastore.numberwriteaveraged.average","datastore.numberreadaveraged.average"
 # 統計情報を取得
-$stat = Get-VMHost | Get-Stat -Stat $stat_counter | sort Timestamp
+$stat = Get-VMHost | Get-Stat -Realtime -Stat $stat_counter | sort Timestamp
 $stat | group MetricId,Instance,Unit | % { 
     $stat_name = $_.Name
     $stat_gr = $_.Group
     # データストア名を取得
-    $ds_id = "Datastore-" + ($stat_gr | select Instance -Unique).Instance
-    $ds_name = Get-Datastore -Id $ds_id
+    $ds_id = ($stat_gr | select Instance -Unique).Instance
+    $ds_name = (Get-Datastore | where {$_.ExtensionData.Summary.Url -like ("*"+ $ds_id +"*")} | select -Unique).Name
     # 統計名を取得
     $metric_name = ($stat_gr | select MetricId -Unique).MetricId
     # 取得した統計情報の期間を取得（1時間）
