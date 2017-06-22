@@ -2,6 +2,7 @@
 
 そろそろ簡易スクリプトを修正したい。  
 powercli タグの投稿より。
+
 <https://communities.vmware.com/people/gowatana/content/?subType=blogpost&filterID=contentstatus%5Bpublished%5D~tag%5Bpowercli%5D&filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D&sortKey=contentstatus%5Bpublished%5D~creationDateAsc&sortOrder=1>
 
 
@@ -47,6 +48,8 @@ powercli タグの投稿より。
 
 ## PowerCLI で ESXiのCPUオーバコミット「見える化」
 <https://communities.vmware.com/people/gowatana/blog/2013/08/06/powercli-%E3%81%A7-esxi%E3%81%AEcpu%E3%82%AA%E3%83%BC%E3%83%90%E3%82%B3%E3%83%9F%E3%83%83%E3%83%88-%E8%A6%8B%E3%81%88%E3%82%8B%E5%8C%96>
+
+* スクリプト： get_esxi_cpuoc.ps1
 
 
 ## ESXi 5.x のバックアップとリストア（PowerCLI編）
