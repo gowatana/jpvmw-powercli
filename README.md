@@ -58,7 +58,7 @@
 
 
 ### PowerCLI で ESXi システムログ（ログバンドル）取得。
-<https://communities.vmware.com/people/gowatana/blog/2013/10/24/powercli-%E3%81%A7-esxi-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%AD%E3%82%B0-%E3%83%AD%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89%E3%83%AB-%E5%8F%96%E5%BE%97>
+[投稿](https://communities.vmware.com/people/gowatana/blog/2013/10/24/powercli-%E3%81%A7-esxi-%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%83%AD%E3%82%B0-%E3%83%AD%E3%82%B0%E3%83%90%E3%83%B3%E3%83%89%E3%83%AB-%E5%8F%96%E5%BE%97)
 
 
 ### PowerCLI で ESXi ログバンドル取得するときの工夫。
