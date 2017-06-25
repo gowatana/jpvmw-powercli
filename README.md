@@ -1,6 +1,6 @@
-# にほんごVMware スクリプト反省会
+# にほんごVMware | PowerCLI反省会
  
-## powercli タグの投稿より。
+## powercli タグの投稿
 
 [投稿](https://communities.vmware.com/people/gowatana/content/?subType=blogpost&filterID=contentstatus%5Bpublished%5D~tag%5Bpowercli%5D&filterID=contentstatus%5Bpublished%5D~objecttype~objecttype%5Bblogpost%5D&sortKey=contentstatus%5Bpublished%5D~creationDateAsc&sortOrder=1)
 
